@@ -2,7 +2,7 @@
 const int BACK_DIR_PIN   = 4;   // Back motor direction
 const int BACK_PULSE_PIN = 5;   // Back motor pulse
 const int FRONT_DIR_PIN  = 2;   // Front steering direction
-const int FRONT_PULSE_PIN= USR 3;   // Front steering pulse
+const int FRONT_PULSE_PIN= 3;   // Front steering pulse
 
 const long PULSES_PER_REV = 1600;  // 1/16 microstepping → 200*16 = 3200 if different, change
 int SPEED_DELAY = 400;             // 300-800 → adjust speed (lower = faster)
