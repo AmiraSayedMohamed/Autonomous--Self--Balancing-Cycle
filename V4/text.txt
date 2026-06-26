@@ -1,0 +1,7 @@
+V4/                  ← المجلد الرئيسي
+├── app.py           ← الملف الرئيسي (Flask Server)
+├── templates/
+│   └── index.html   ← الواجهة (المتصفح)
+├── arduino/
+│   └── bicycle_control.ino   ← كود الـ Arduino
+└── (ملفات أخرى لو فيه)
